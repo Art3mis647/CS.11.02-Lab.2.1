@@ -8,22 +8,22 @@ public class Main {
         System.out.println(add4); //should print 10
 
         String morning = morningGreeting("me");
-        System.out.println(morning); //should return "早上好,  me!"
+        System.out.println(morning); //should print "早上好,  me!"
 
         String afternoon = afternoonGreeting("me");
-        System.out.println(afternoon); //should return "下午好,  me!“
+        System.out.println(afternoon); //should print "下午好,  me!“
 
         String what = triple("what");
-        System.out.println(what); //should return "what?what?what?"
+        System.out.println(what); //should print "what?what?what?"
 
         double halfed = half(5);
-        System.out.println(halfed); //should return 2.5
+        System.out.println(halfed); //should print 2.5
 
         int roundedNegative = roundNegativeValueToNearestInteger(-3.4);
-        System.out.println(roundedNegative); //should return -3
+        System.out.println(roundedNegative); //print return -3
 
         int roundedPositive = roundPositiveValueToNearestInteger(3.14);
-        System.out.println(roundedPositive); //should return 3
+        System.out.println(roundedPositive); //print return 3
 
     }
 
