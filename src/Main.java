@@ -1,14 +1,29 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(add(2, 3)); //should return 5
-        System.out.println(add(1, 2, 3, 4)); //should return 10
-        System.out.println(morningGreeting("me")); //should return "早上好,  me!"
-        System.out.println(afternoonGreeting("me")); //should return "下午好,  me!“
-        System.out.println(triple("what?")); //should return "what?what?what?"
-        System.out.println(half(5)); //should return 2.5
-        System.out.println(roundNegativeValueToNearestInteger(-3.4)); //should return -3
-        System.out.println(roundPositiveValueToNearestInteger(3.14)); //should return 3
+        int add2 = add(2, 5);
+        System.out.println(add2); //should print 7
+
+        int add4 = add(1, 2, 3, 4);
+        System.out.println(add4); //should print 10
+
+        String morning = morningGreeting("me");
+        System.out.println(morning); //should return "早上好,  me!"
+
+        String afternoon = afternoonGreeting("me");
+        System.out.println(afternoon); //should return "下午好,  me!“
+
+        String what = triple("what");
+        System.out.println(what); //should return "what?what?what?"
+
+        double halfed = half(5);
+        System.out.println(halfed); //should return 2.5
+
+        int roundedNegative = roundNegativeValueToNearestInteger(-3.4);
+        System.out.println(roundedNegative); //should return -3
+
+        int roundedPositive = roundPositiveValueToNearestInteger(3.14);
+        System.out.println(roundedPositive); //should return 3
 
     }
 
