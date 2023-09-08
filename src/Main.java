@@ -2,22 +2,22 @@ public class Main {
 
     public static void main(String[] args) {
         int add2 = add(2, 5);
-        System.out.println(add2); //should print 7
+        System.out.println(add2);            //should print 7
 
         int add4 = add(1, 2, 3, 4);
-        System.out.println(add4); //should print 10
+        System.out.println(add4);            //should print 10
 
         String morning = morningGreeting("me");
-        System.out.println(morning); //should print "早上好,  me!"
+        System.out.println(morning);         //should print "早上好,  me!"
 
         String afternoon = afternoonGreeting("me");
-        System.out.println(afternoon); //should print "下午好,  me!“
+        System.out.println(afternoon);       //should print "下午好,  me!“
 
         String what = triple("what");
-        System.out.println(what); //should print "what?what?what?"
+        System.out.println(what);            //should print "what?what?what?"
 
         double halfed = half(5);
-        System.out.println(halfed); //should print 2.5
+        System.out.println(halfed);          //should print 2.5
 
         int roundedNegative = roundNegativeValueToNearestInteger(-3.4);
         System.out.println(roundedNegative); //print return -3
